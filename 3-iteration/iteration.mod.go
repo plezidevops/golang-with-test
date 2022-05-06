@@ -1,10 +1,10 @@
 package iteration
 
+import "strings"
+
+const repeatCount = 5
+
+// Repeat a character n number of times
 func Repeat(text string) string {
-	//return strings.Repeat(text, 5)
-	var repeated string
-	for i := 0; i < 5; i++ {
-		repeated = repeated + text
-	}
-	return repeated
+	return strings.Repeat(text, repeatCount)
 }
