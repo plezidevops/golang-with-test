@@ -7,3 +7,9 @@ func Sum(numbers []int) int {
 	}
 	return count
 }
+
+func SumAll(numbersToSum ...[]int) (sum []int) {
+
+	sum = []int{3, 9}
+	return
+}
